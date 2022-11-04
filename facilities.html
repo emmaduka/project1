@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width,
+        initial-scale=1.0">
+        <title>PAU</title>
+        <link rel="stylesheet" href="home.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    </head>
+    <body>
+        <section class="subheader">
+            <nav>
+                <a href="home.html"><img src="logo.png"></a>
+                <div class="nav-links" id="navlinks">
+                    <i class="fa fa-times" onclick="hidemenu()"></i>
+                    <ul>
+                        <li><a href="home.html">HOME</a></li>
+                        <li><a href="courses.html">COURSES</a></li>
+                        <li><a href="facilities.html">FACILITIES</a></li>
+                        <li><a href="faqs.html">FAQS</a></li>
+                        <li><a href="contact.html">CONTACT</a></li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars" aria-hidden="true" onclick="openmenu()"></i>
+            </nav>
+           <h1>Our Facilities</h1>
+        </section>
+<div class="facilities">
+    <h1>Lecture Halls</h1>
+    <p>Where our students receive classes. Each hall is named after an African capital city</p>
+    <div class="row">
+        <div class="facilitiescol">
+            <img src="lt1.jpg">
+            <p>Abuja Hall</p>
+        </div>
+        <div class="facilitiescol">
+            <img src="lt2.jpg">
+            <p>Pretoria Hall</p>
+        </div>
+        <div class="facilitiescol">
+            <img src="lt3.jpg">
+            <p>Nairobi Hall</p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="facilitiescol">
+            <img src="lt5.jpg">
+            <p>Cairo Hall</p>
+        </div>
+        <div class="facilitiescol">
+            <img src="lt6.jpg">
+            <p>Accra Hall</p>
+        </div>
+        <div class="facilitiescol">
+            <img src="lt7.jpg">
+            <p>Kigali Hall</p>
+        </div>
+    </div>
+    <h1>Laboratories</h1>
+    <p>Our world class facilities where innovative new ideas are brought to fruition</p>
+    <div class="row">
+        <div class="facilitiescol">
+            <img src="lab1.jpg">
+            <p>Nanoscience Laboratory</p>
+        </div>
+        <div class="facilitiescol">
+            <img src="lab2.jpg">
+            <p>Genomics and Genetic science Laboratory</p>
+        </div>
+        <div class="facilitiescol">
+            <img src="lab3.jpg">
+            <p>Virtual Simulations Laboratory</p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="facilitiescol">
+            <img src="lab9.jpg">
+            <p>Autonomous Systems Laboratory</p>
+        </div>
+        <div class="facilitiescol">
+            <img src="lab6.jpg">
+            <p>Energy Laboratory</p>
+        </div>
+        <div class="facilitiescol">
+            <img src="lab8.webp">
+            <p>Hydroponics Laboratory</p>
+        </div>
+    </div>
+    <h1>Research & Development Facilities</h1>
+    <p>Owned and Operated by large corporations and organizations in all parts of the world, these facilities help our
+        students to work in partnership with these companies to develop innovative new products
+    </p>
+    <div class="row">
+        <div class="facilitiescol">
+            <img src="facility.png">
+            <p>Advanced Innovation Mechanics (AIM) Aerospace Research Facility</p>
+        </div>
+        <div class="facilitiescol">
+            <img src="facility10.jpg">
+            <p>Polynet Research Facility</p>
+        </div>
+        <div class="facilitiescol">
+            <img src="facility11.jpg">
+            <p>Progress Initiative DevLabs</p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="facilitiescol">
+            <img src="faciliytee.png">
+            <p>Siemens Research Facility</p>
+        </div>
+        <div class="facilitiescol">
+            <img src="fac1.jpg">
+            <p>Tesla Energy Research Facility</p>
+        </div>
+        <div class="facilitiescol">
+            <img src="fac2.jpg">
+            <p>Research Facility of the Nigerian Ministry of Science & Technology</p>
+        </div>
+    </div>
+    <h1>Others</h1>
+    <div class="row">
+        <div class="facilitiescol">
+            <img src="camp.jpg">
+            <p>Cafe</p>
+        </div>
+        <div class="facilitiescol">
+            <img src="campus3.jpg">
+            <p>Multichoice Resource Centers</p>
+        </div>
+        <div class="facilitiescol">
+            <img src="facility2.png">
+            <p>Sports Center</p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="facilitiescol">
+            <img src="facility12.jpg">
+            <p>Library</p>
+        </div>
+        <div class="facilitiescol">
+            <img src="lab.jpg">
+            <p>Hangout Rooms</p>
+        </div>
+        <div class="facilitiescol">
+            <img src="rede.jpg">
+            <p>Health Center</p>
+        </div>
+    </div>
+</div>
+
+<!-----Footer-->
+
+<section class="footer">
+    <h4>About Us</h4>
+    <p>An institution geared towards raising
+        new generations of<br> African leaders that will
+        pioneer new industries</p>
+</section>
+
+<!--------JavaScript for Toggle Menu-->
+        <script>
+    var navlinks=document.getElementById('navlinks');
+    function openmenu(){
+        navlinks.style.right="0";
+    }
+    function hidemenu(){
+        navlinks.style.right="-200px";
+    }
+        </script>
+    </body>
+</html>

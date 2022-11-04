@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width,
+        initial-scale=1.0">
+        <title>PAU</title>
+        <link rel="stylesheet" href="home.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    </head>
+    <body>
+        <section class="subheader">
+            <nav>
+                <a href="home.html"><img src="logo.png"></a>
+                <div class="nav-links" id="navlinks">
+                    <i class="fa fa-times" onclick="hidemenu()"></i>
+                    <ul>
+                        <li><a href="home.html">HOME</a></li>
+                        <li><a href="courses.html">COURSES</a></li>
+                        <li><a href="facilities.html">FACILITIES</a></li>
+                        <li><a href="faqs.html">FAQS</a></li>
+                        <li><a href="contact.html">CONTACT</a></li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars" aria-hidden="true" onclick="openmenu()"></i>
+            </nav>
+           <h1>FAQS</h1>
+        </section>
+
+        <div class="faqs">
+            <h1>Frequently Asked Questions</h1>
+            <div class="question">
+                How many years does a programme at this institution last?
+            </div>
+            <div></div>
+            <div class="answer">
+                Every programme lasts two years
+            </div>
+            <div class="question">
+                How many courses are each student required to take?
+            </div>
+            <div></div>
+            <div class="answer">
+                Each student is required to take as many courses as he/she wants but the least they can take 
+                is two courses from each course section
+            </div>
+            <div class="question">
+                How often are classes held in the lecture halls?
+            </div>
+            <div></div>
+            <div class="answer">
+                Classes are held three days a week between 10am and 2pm. Our students spend more of their 
+                time working in the lab or testing new products in the R&D facilities
+            </div>
+            <div class="question">
+                Since this is a new model for tertiary education, is the examination model similar to
+                that of conventional universities?
+            </div>
+            <div></div>
+            <div class="answer">
+                Our examination model is much different. Every student knows the only examination question at the 
+                start of the program, which is; During your stay here and in each course that you have taken, what new 
+                ideas have you come up with and how far have you gone in bringing them to reality? That's really 
+                it. This way our students focus more on using what they've learnt as opposed to learning to forget
+            </div>
+            <div class="question">
+                How old must I be to be able to study here?
+            </div>
+            <div></div>
+            <div class="answer">
+                Anyone between the ages of 16 and 60 is welcome here
+            </div>
+            <div class="question">
+                Must I have any degree before I can be accepted here? If so, which?
+            </div>
+            <div></div>
+            <div class="answer">
+                As long as you meet our criteria we will accept you with or without a degree. However, we advice 
+                that you first acquire a bachelor's degree before attempting to come here as this degree prepares you 
+                for life here. Having a degree is not compulsory but it's advisable
+            </div>
+            <div class="question">
+                What notable achievements can this institution boast of?
+            </div>
+            <div></div>
+            <div class="answer">
+                Oh, they are quite numerous.  For the past twelve years of existence, twenty four thousand students have graduated from the 
+                Pan African Institute of Technology, more than a thousand successful researches have been conducted, 
+                14,911 patents have been filed, more than two hundred successful companies were born here; among which thirteen
+                are valued at more than a trillion dollars and another seventy four have multiibillion dollar valuations,
+                we have produced 77 Nobel laureates among which 71 have made it to the Nigerian hall of fame and we 
+                have engineered more than a thousand new products for several tech companies.
+            </div>
+        </div>
+
+<!-----Footer-->
+
+<section class="footer">
+    <h4>About Us</h4>
+    <p>An institution geared towards raising
+        new generations of<br> African leaders that will
+        pioneer new industries</p>
+</section>
+
+<!--------JavaScript for Toggle Menu-->
+        <script>
+    var navlinks=document.getElementById('navlinks');
+    function openmenu(){
+        navlinks.style.right="0";
+    }
+    function hidemenu(){
+        navlinks.style.right="-200px";
+    }
+        </script>
+    </body>
+</html>
